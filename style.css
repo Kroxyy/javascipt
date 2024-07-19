@@ -200,6 +200,43 @@ p::first-letter {
 }
 
 @media screen and (max-width: 1000px) {
+  .adapt {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b";
+    text-align: center;
+    justify-items: center;
+  }
+  .dummy-adapt {
+    padding: 2rem 2rem;
+  }
+  .improvise {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b";
+    justify-items: center;
+    text-align: center;
+  }
+  #imgImprovise {
+    width: 90%;
+    transition: 3s;
+  }
+  .overcome {
+    text-align: center;
+  }
+  .overcome img {
+    margin-top: 10%;
+  }
+
+  .item-a {
+    grid-area: b;
+  }
+
+  .item-b {
+    grid-area: a;
+  }
   .pop-up {
     width: 50%;
   }
